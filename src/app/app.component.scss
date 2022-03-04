@@ -1,0 +1,49 @@
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+
+.cargaDeTareas {
+   margin-block-end: 1.5rem;
+   display: flex;
+   justify-content: center;
+}
+
+.cargaDeTareas input{
+    width: 31.5vw;
+    margin-inline-end: 0.5rem;  
+    padding: 0.5rem;
+}
+
+.listadoTareas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listadoTareas label {
+    margin-block-end: 0.8rem;
+    border: 1px solid rgb(32, 32, 32);
+    width: 35.5vw;
+    padding: 0.3rem;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.buttonIcon {
+    background: white;
+    border-color: white;
+}
